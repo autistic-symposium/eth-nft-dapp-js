@@ -1,0 +1,53 @@
+{
+  "name": "generative-storyteller",
+  "version": "0.0.2",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/icons": "^1.0.15",
+    "@chakra-ui/react": "^1.6.7",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "@ethersproject/abi": "^5.4.1",
+    "@fontsource/inter": "^4.5.0",
+    "@fontsource/source-code-pro": "^4.5.0",
+    "@walletconnect/web3-provider": "^1.6.5",
+    "ethers": "^5.4.6",
+    "framer-motion": "^4",
+    "next": "^11.1.2",
+    "next-i18next": "^8.8.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "use-nft": "^0.10.1",
+    "web-vitals": "^1.0.1",
+    "web3": "^1.5.3",
+    "web3modal": "^1.9.4"
+  },
+  "scripts": {
+    "start": "next start",
+    "build": "next build",
+    "dev": "next dev",
+    "lint": "next lint",
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest",
+      "prettier"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-next": "11.1.2",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.25.1",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2",
+    "prettier": "2.3.2",
+    "typechain": "^6.0.2",
+    "typescript": "^4.4.3"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,json,md,html,graphql}": "prettier --write"
+  }
+}
