@@ -1,4 +1,4 @@
-# Storyteller Card DApp
+# 🖼 storyteller nft card dapp
 
 The minting DApp for my NFT Collection, locatted at: [generativestory.com](https://www.generativestory.com/).
 
