@@ -28,7 +28,7 @@ function Footer() {
       <VStack mx="auto" maxW="6xl" px={4} spacing={1}>
         <Text fontSize="10" color="#726EB2" fontWeight="bold">
           {
-            'This collection was written by bt3gl (DeveloperDAO #2247) for the FilmmakerDAO community.'
+            'This collection was written by Mia Stein (DeveloperDAO #2247) for the FilmmakerDAO community.'
           }
         </Text>
         <Text fontSize="10" color="#726EB2" fontWeight="bold">
